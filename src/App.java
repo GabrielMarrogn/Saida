@@ -7,8 +7,8 @@ public class App {
                     System.out.print("-");
                 }
             }else if(i > 1 && i <7){
-                for(int k = 0;k < 39; k++){
-                    if(k == 0 || k == 38){
+                for(int k = 1;k <= 39; k++){
+                    if(k == 1 || k == 39){
                         System.out.print("|");
                     }else{
                         System.out.print(" ");
